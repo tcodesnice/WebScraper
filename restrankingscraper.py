@@ -50,7 +50,7 @@ if response.status_code == 200:
     df = pd.DataFrame(data)
 
     # Save the DataFrame as a CSV file
-    df.to_csv('path/to/csv/file.csv', index=False)
+    df.to_csv('/path/to/file.csv', index=False)
 
     print("Data has been scraped and saved as 'restaurants_2002.csv'.")
 else:
